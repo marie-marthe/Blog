@@ -7,14 +7,14 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
 
-class Application
+class App
 {
 
     private $modules = [];
 
 
     /**
-    * Application constructor.
+    * App constructor.
     * @param string[] $modules Liste des modules à charger
 
      */
