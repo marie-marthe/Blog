@@ -3,7 +3,7 @@
 require '../vendor/autoload.php';
 
 
-$app = new \application\App([
+$app = new Blog\application\App ([
 
     BlogModule::class
 
