@@ -2,8 +2,10 @@
 # et l'url du site
 # inscrire ses paramètres de connection et son url
 dbConnect:
-    host: #localhost8888
+    host: #localhost
     dbname: #Blog
     loginDB: #root
     passDB: #root
-url: #http://localhost/Projet4/Projet-4-Creez-un-blog-pour-un-ecrivain/
+url: #http://www.monblogTEL.dev
+
+

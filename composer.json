@@ -1,0 +1,24 @@
+{
+    "name": "Lab/Blog",
+    "authors": [
+        {
+            "name": "TELBOIS Marie",
+            "email": "marie.telbois@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "core\\" : "app/core/"
+        }
+    },
+    "require": {
+        "guzzlehttp/psr7": "^1.6",
+        "http-interop/response-sender": "^1.0",
+        "squizlabs/php_codesniffer": "^3.4",
+        "zendframework/zend-expressive-fastroute": "^3.0",
+        "symfony/yaml": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
